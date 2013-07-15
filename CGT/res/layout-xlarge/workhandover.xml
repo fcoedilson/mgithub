@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/snow" >
+
+    <LinearLayout
+        android:id="@+id/llayout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="今日交接记录"
+            android:textSize="40sp" />
+		 <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="2013-07-01"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+    
+     <LinearLayout
+         	android:id="@+id/llayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llayout_1"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="姓名"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/handovertime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="交接时间"
+                 android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/remarks"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="备注信息"
+                 android:textSize="@dimen/text_size"/>
+     </LinearLayout>
+      <ListView
+            android:id="@+id/thlistview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/llayout2"
+            android:cacheColorHint="#00000000">
+      </ListView>
+     
+
+       <LinearLayout
+            android:id="@+id/llayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/addhandover"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="任务交接" 
+                android:textSize="@dimen/text_size">
+            </Button>
+
+            <Button
+                android:id="@+id/addhandover"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                android:text="状态更新" 
+                android:textSize="@dimen/text_size">
+            </Button>
+ 
+        </LinearLayout>
+</RelativeLayout>

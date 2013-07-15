@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView android:id="@+id/startImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/starting"
+        android:contentDescription="@string/starting"
+     />
+    <TextView android:id="@+id/startText"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+ 		android:gravity="center"
+        android:text="@string/starting"
+        android:textSize="18sp"
+        android:textColor="@color/ivory"
+        android:layout_alignParentBottom="true">
+    </TextView>
+    
+</RelativeLayout>

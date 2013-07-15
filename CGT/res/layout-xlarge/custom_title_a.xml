@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_nav_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.2"
+        android:layout_margin="5dp"
+        android:text="@string/title_main"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_title_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:text="@string/title_info"
+        android:textSize="@dimen/text_size" 
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_nav_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.2"
+        android:text="@string/title_back"
+        android:textSize="@dimen/text_size" />
+</LinearLayout>

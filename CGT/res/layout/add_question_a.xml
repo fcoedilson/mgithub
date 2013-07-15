@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left" >
+            
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题类别" />
+                <RadioGroup android:id="@+id/radiogroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                   	<RadioButton android:id="@+id/type_sj"
+                   	    android:layout_width="wrap_content"
+                   	    android:layout_height="wrap_content"
+                   	    android:checked="true"
+                   	    android:text="事件"/>
+                   	<RadioButton android:id="@+id/type_bj"
+                   	    android:layout_width="wrap_content"
+                   	    android:layout_height="wrap_content"
+                   	    android:layout_marginLeft="40dp"
+                   	    android:text="部件"/> 	    
+                </RadioGroup>
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/type_dl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题大类" />
+
+                <Spinner
+                    android:id="@+id/type_sdl"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp" />
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/type_xl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题小类" />
+                <Spinner
+                    android:id="@+id/type_sxl"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发生地点:" />
+
+                <EditText
+                    android:id="@+id/et_address"
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="地点"
+                    android:scrollbars="vertical"
+                    android:textColor="#606060" />
+            </TableRow>
+    		<TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/grid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="所处网格:" />
+
+                <EditText
+                    android:id="@+id/et_grid"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="201201311"/>
+                <Button android:id="@+id/gocode"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查询"/>"
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="部件标识码:" />
+
+                <EditText
+                    android:id="@+id/et_compcode"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="201201311"/>
+                <Button android:id="@+id/gocode"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="查询"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事发描述:" />
+                <EditText
+                    android:id="@+id/et_describe"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:scrollbars="vertical"
+                    android:textColor="#606060" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地理坐标:" />
+
+                <EditText
+                    android:id="@+id/et_describe"
+                    android:layout_width="220dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp"/>
+            </TableRow>
+             <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="现场照片：" />
+                <GridView android:id="@+id/gv_taskphoto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="auto_fit"
+                    android:verticalSpacing="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="center"/>
+            </TableRow>
+             <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="现场录音：" />
+                <GridView android:id="@+id/gv_taskrecode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="auto_fit"
+                    android:verticalSpacing="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="拍照" />
+                
+				<Button
+                    android:id="@+id/btn_qr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="录音" />
+				
+				<Button
+                    android:id="@+id/btn_qr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地图" />
+                <Button
+                    android:id="@+id/btn_qr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题上报" />
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="离线保存" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

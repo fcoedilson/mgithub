@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bottom_tab_padding_drawable">6.0dip</dimen>
+	<dimen name="bottom_tab_padding_up">14.0dip</dimen>
+	<dimen name="bottom_tab_font_size">22.0dip</dimen>
+	
+	
+	<dimen name="text_title_size">44.0dip</dimen>
+	<dimen name="text_size">28.0dip</dimen>
+</resources>

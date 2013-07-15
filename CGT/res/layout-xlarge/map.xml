@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+    <!-- MapView layout and initial extent -->
+    <com.esri.android.map.MapView
+  		android:id="@+id/map"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		initExtent = "120.84812116199998 37.423271659499996 123.64610311799998 40.3376622705">
+  	</com.esri.android.map.MapView>
+  	<ImageView android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/location"/>
+    <ImageView android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_launcher"/>
+     <ImageView android:id="@+id/btn_zoomout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btn_zoomin"
+		android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_launcher"/>
+     <ImageView android:id="@+id/btn_zoomin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/map_tlayout"
+		android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_launcher"/>
+     <LinearLayout android:id="@+id/map_tlayout"
+         android:layout_width="fill_parent"
+         android:layout_height="80dp"
+         android:layout_alignParentBottom="true">
+  			<Button android:id="@+id/map_btn_draw" 
+  			    android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:text="绘制"
+                 android:textSize="@dimen/text_size"/>
+             <Button android:id="@+id/map_btn_query" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:text="查询"
+                 android:textSize="@dimen/text_size"/>
+             <Button android:id="@+id/map_btn_gp" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:text="GP服务"
+                 android:textSize="@dimen/text_size"/>
+             <Button android:id="@+id/map_btn_edit" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:text="要素编辑"
+                 android:textSize="@dimen/text_size"/>
+             
+     </LinearLayout>
+</RelativeLayout>

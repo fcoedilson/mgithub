@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <dl code="01" name="公共设施" >
+        <xl code="01" name="上井井盖"/>
+        <xl code="02" name="污水井盖"/>
+        <xl code="03" name="雨水井盖"/>
+        <xl code="04" name="雨水箅子"/>
+        <xl code="05" name="电力井盖"/>
+        <xl code="06" name="路灯井盖"/>
+        <xl code="07" name="通讯井盖"/>
+        <xl code="08" name="电视井盖"/>
+        <xl code="09" name="网络井盖"/>      
+        <xl code="10" name="热力井盖"/>
+        <xl code="11" name="燃气井盖"/>
+        <xl code="12" name="公安井盖"/>
+        <xl code="13" name="消防设施"/>
+        <xl code="14" name="无主井盖"/>
+        <xl code="15" name="通讯交接箱"/>
+        <xl code="16" name="电力设施"/>      
+        <xl code="17" name="立杆"/>
+        <xl code="18" name="路灯"/>
+        <xl code="19" name="地灯"/>
+        <xl code="20" name="景观灯"/>
+        <xl code="21" name="报刊亭"/>
+        <xl code="22" name="电话亭"/>
+        <xl code="23" name="邮筒"/>
+        <xl code="24" name="信息亭"/>
+        <xl code="25" name="自动售货机"/>       
+        <xl code="26" name="健身设施"/>
+        <xl code="27" name="中水井盖"/>
+        <xl code="28" name="公交井盖"/>
+        <xl code="29" name="输油（气）井盖"/>
+        <xl code="30" name="特殊井盖"/>       
+        <xl code="31" name="民用水井"/>
+        <xl code="32" name="供水器"/>
+        <xl code="33" name="高压线铁塔"/>
+        <xl code="34" name="变压器（箱）"/>
+        <xl code="35" name="燃气调压站（箱）"/>
+        <xl code="36" name="监控电子眼"/>
+        <xl code="37" name="售货亭"/>
+        <xl code="38" name="治安岗亭"/>     
+    </dl>
+    <dl code="02" name="道路交通">
+        <xl code="01" name="停车场"/>
+        <xl code="02" name="停车咪表"/>
+        <xl code="03" name="公交站亭"/>
+        <xl code="04" name="出租车站牌"/>
+        <xl code="05" name="过街天桥"/>
+        <xl code="06" name="地下通道"/>
+        <xl code="07" name="高架立交桥"/>
+        <xl code="08" name="跨河桥"/>
+        <xl code="09" name="交通标志牌"/>      
+        <xl code="10" name="交通信号灯"/>
+        <xl code="11" name="交通护栏"/>
+        <xl code="12" name="存车支架"/>
+        <xl code="13" name="路名牌"/>
+        <xl code="14" name="交通信号设施"/>
+        <xl code="15" name="道路信息显示屏"/>
+        <xl code="16" name="道路隔音屏"/>      
+        <xl code="17" name="交通岗亭"/>
+    </dl>
+    <dl code="03" name="市容环境">
+        <xl code="01" name="公共厕所"/>
+        <xl code="02" name="化粪池"/>
+        <xl code="03" name="公厕指示牌"/>
+        <xl code="04" name="垃圾间（楼）"/>
+        <xl code="05" name="垃圾箱"/>
+        <xl code="06" name="灯箱霓虹灯"/>
+        <xl code="07" name="广告牌匾"/>
+        <xl code="08" name="环保监测站"/>
+        <xl code="09" name="气象监测站"/>      
+        <xl code="10" name="污水口监测站"/>
+        <xl code="11" name="噪声显示屏"/>
+    </dl>
+    <dl code="04" name="园林绿化">
+        <xl code="01" name="古树名木"/>
+        <xl code="02" name="行道树"/>
+        <xl code="03" name="护树设施"/>
+        <xl code="04" name="花架花钵"/>
+        <xl code="05" name="绿地"/>
+        <xl code="06" name="雕塑"/>
+        <xl code="07" name="街头坐椅"/>
+        <xl code="08" name="绿地护栏"/>
+        <xl code="09" name="绿地维护设施"/>      
+        <xl code="10" name="喷泉"/>
+    </dl>
+    <dl code="05" name="房屋土地">
+        <xl code="01" name="宣传栏"/>
+        <xl code="02" name="人防工事"/>
+        <xl code="03" name="公房地下室"/>
+    </dl>
+    <dl code="06" name="其它设施">
+        <xl code="01" name="重大危险源"/>
+        <xl code="02" name="工地"/>
+        <xl code="03" name="水域附属设施"/>
+        <xl code="04" name="水域护栏"/>
+        <xl code="05" name="港监设施"/>
+        <xl code="06" name="防汛墙"/> 
+    </dl>
+    <dl code="21" name="扩展部件">
+
+    </dl>
+</component>

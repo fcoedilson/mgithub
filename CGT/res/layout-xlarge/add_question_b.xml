@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="@color/snow">
+        <GridView
+            android:id="@+id/question_photo_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:verticalSpacing="20dp"
+            android:horizontalSpacing="20dp"
+            android:numColumns="4"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+           	android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+         
+            <Button android:id="@+id/question_btn_takephoto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:layout_weight="1"
+                android:text="@string/question_btn_takephoto"
+                android:textSize="@dimen/text_size"/>
+            <Button android:id="@+id/question_btn_openalbum"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 android:layout_weight="1"
+                android:text="相册选择照片"
+                android:textSize="@dimen/text_size"/>
+            <Button android:id="@+id/question_b_btn_save"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 android:layout_weight="1"
+                android:text="@string/question_btn_save"
+                android:textSize="@dimen/text_size"/>
+        </LinearLayout>
+</RelativeLayout>

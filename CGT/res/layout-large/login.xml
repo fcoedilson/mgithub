@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width= "fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginbg"
+    android:gravity="center">
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="400dp"
+       android:orientation="horizontal"
+       android:background="@drawable/background_login">
+       <ImageView android:id="@+id/logo"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:background="@drawable/m18"
+           android:layout_marginLeft="20dp"/>
+       <LinearLayout android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_marginLeft="20dp"
+           android:orientation="vertical">
+           <EditText android:id="@+id/login_edit_account"
+               android:layout_width="fill_parent"
+               android:layout_height="80dp"
+               android:layout_marginTop="20dp"
+               android:hint="输入账号"
+               android:textSize="28sp"/>
+            <EditText android:id="@+id/login_edit_pwd"
+               android:layout_width="fill_parent"
+               android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+               android:hint="输入密码"
+               android:textSize="28sp"/>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="100sp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <CheckBox android:id="@+id/login_cb_savepwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="记住密码"
+                    android:textSize="28sp"
+                    android:checked="true"/>
+                <Button android:id="@+id/login_btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="登录"
+                    android:textSize="28sp"/>
+                 <Button android:id="@+id/login_btn_reset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="重置"
+                    android:textSize="28sp"/>"
+            </LinearLayout>
+       </LinearLayout>       
+           "
+   </LinearLayout>
+</LinearLayout>

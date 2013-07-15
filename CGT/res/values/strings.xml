@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CGTActivity!</string>
+    <string name="app_name">CGT</string>
+    
+    
+    <string name="title_main">首页</string>
+    <string name="title_info">城管通</string>
+    <string name="title_back">返回</string>
+    
+    <!-- StartingActivity -->
+    <string name="starting">启动中……</string>
+    
+    <!-- LoginActivity -->
+    <string name="account">账号:</string>
+    <string name="password">密码:</string>
+    <string name="hint_account">请输入账号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="remember">记住密码</string>
+    <string name="login">登录</string>
+    <string name="reset">重置</string>
+    
+     <!-- UploadTabActivity -->
+    <string name="task_tb_basic">基本信息</string>
+    <string name="task_tb_photo">现场照片</string>
+    <string name="task_tb_record">现场录音</string>
+    <string name="task_tb_manager">上传管理</string>
+    
+    
+    <!-- AddQuestionActivity -->
+    <string name="question_title_a">->问题录入-基本信息</string>
+    <string name="question_title_b">->问题录入-现场照片</string>
+    <string name="question_title_c">->问题录入-现场录音</string>
+    <string name="question_title_line">________________________________________________________</string>
+    <string name="question_type">问题类别</string>
+    <string name="question_sj">事件</string>
+    <string name="question_bj">部件</string>
+    <string name="question_dl">问题大类</string>
+    <string name="question_xl">问题小类</string>
+    <string name="question_address">发生地点</string>
+    <string name="question_grid">网格编号</string>
+    <string name="question_bjcode">部件标识码</string>
+    <string name="question_query">查询</string> 
+    <string name="question_location">定位</string> 
+    <string name="question_describe">描述信息</string> 
+    <string name="question_xy">地理坐标</string> 
+    <string name="question_btn_save">保存并继续</string> 
+    <string name="question_btn_next">下一步</string> 
+    <string name="question_btn_preo">上一步</string> 
+    <string name="question_photo">照片录音</string> 
+    <string name="question_btn_takephoto">拍摄照片</string> 
+    <string name="question_btn_takerecord">录音</string> 
+    <string name="question_btn_openmap">地图操作</string> 
+    <string name="question_btn_upload">资料上传</string> 
+    <string name="question_btn_localsave">保存</string> 
+    
+     
+    <!-- NoticeTabActivity -->
+    <string name="notice_tb_today">今日提示</string>
+    <string name="noitce_tb_handvoer">交接信息</string>
+    
+     <!-- NoticeActivity -->
+    <string name="todayinfos">
+                      通过使用 Office Visio 2007 中的新增功能和改进功能，更有效地沟通并以更多方式来影响更广泛的用户： 
+		使用新增的形状和图表类型进行有效交流。使用 Office Visio 2007 中简化的图表类别可以轻松找到适合您需要的模板。
+		使用 Office Visio Professional 2007 中的 ITIL（IT 基础设施库）模板和价值流图模板等新增模板可以创建种类更
+		广泛的图表。使用新增的三维工作流形状可以创建更动态的工作流。设计具有专业外观的图表。使用 Office Visio 2007 
+		中新增的主题功能，只需单击一次，即可方便地设置整个图表中的颜色和效果的格式。Office Visio 2007 甚至可
+		与 Microsoft Office PowerPoint 2007 使用相同的颜色，因此您可以轻松设计与 PowerPoint 演示文稿相配且具有
+		专业外观的 Visio 图表。</string>
+</resources>

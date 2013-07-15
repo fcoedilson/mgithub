@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" 
+    android:orientation="horizontal"
+    android:background="#ffffff">
+    <ImageView android:id="@+id/wb_item_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ic_launcher">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:id="@+id/wb_item_title"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="井盖丢失"
+            android:textSize="16sp"></TextView>
+        <TextView android:id="@+id/wb_item_infos"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="朝阳区建国门北大街和XX街交叉口处东北角有一下水井盖丢失！联系人XXX，电话XXXXXXX，请前往核查问题。"
+            android:textSize="14sp"></TextView>
+         <TextView android:id="@+id/wb_item_time"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2013-07-02 14:05:30   指挥中心"
+            android:textSize="12sp"></TextView>
+    </LinearLayout>
+</LinearLayout>
